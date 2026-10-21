@@ -1,0 +1,58 @@
+[project]
+name = "biased-dataset"
+version = "0.1.0"
+description = "GeoBiaset generation and geolocation evaluation tools."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.0.0",
+    "datasets>=2.18.0",
+    "faiss-cpu>=1.9.0",
+    "geoclip>=1.2.0",
+    "geopandas>=0.14.0",
+    "matplotlib>=3.8.0",
+    "numpy>=1.26.0",
+    "opencv-python>=4.10.0",
+    "openai>=1.0.0",
+    "Pillow>=10.0.0",
+    "plotly>=6.0.0",
+    "pyogrio>=0.7.0",
+    "pyproj>=3.6.0",
+    "PyYAML>=6.0.2",
+    "scipy>=1.11.0",
+    "shapely>=2.0.0",
+    "torch>=2.2.0",
+    "tqdm>=4.67.0",
+    "transformers>=4.49.0",
+    "pyiqa>=0.1.15.post2",
+]
+
+[project.optional-dependencies]
+vlm = [
+    "vllm>=0.5.4",
+]
+
+[project.scripts]
+classify-im2gps3k = "biased_dataset_tools.classifier:main"
+augment-dataset = "biased_dataset_tools.augment:main"
+eval-dataset-geoclip = "biased_dataset_tools.geoloc_eval:main"
+eval-dataset-geoloc = "biased_dataset_tools.geoloc_eval:main"
+run-geoloc-suite = "biased_dataset_tools.geoloc_suite:main"
+evaluate-models = "evaluate_models:main"
+eval-dashboard = "biased_dataset_tools.eval_dashboard:main"
+append-evaluation-metrics = "biased_dataset_tools.append_evaluation_metrics:main"
+country-lookup = "country_lookup:main"
+filter-geographic-buckets = "biased_dataset_tools.region_filter:main"
+download-fairface = "biased_dataset_tools.download_fairface:main"
+gt-coordinate-heatmap = "biased_dataset_tools.gt_heatmap:main"
+prediction-heatmap = "biased_dataset_tools.prediction_heatmap:main"
+geoclip-xai = "biased_dataset_tools.geoclip_xai:main"
+geoclip-gradcam = "biased_dataset_tools.geoclip_gradcam:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["src/biased_dataset_tools", "src/country_lookup.py", "metrics", "models", "evaluate_models.py"]
+sources = ["src"]

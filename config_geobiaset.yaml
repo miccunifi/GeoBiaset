@@ -1,0 +1,8 @@
+source:
+  name: GeoBiaset
+  root_dir: .
+
+dataset:
+  name: GeoBiaset
+  root_dir: GeoBiaset
+  manifest_csv: GeoBiaset/demo_eval_manifest.csv
