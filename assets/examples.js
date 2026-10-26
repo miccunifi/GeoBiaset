@@ -1,0 +1,719 @@
+window.GEOBIASET_EXAMPLES = [
+  {
+    "id": "bangkok",
+    "title": "Bangkok, Thailand",
+    "lat": 13.735383,
+    "lon": 100.500183,
+    "type": "landmark",
+    "source": "im2gps3k",
+    "original": "assets/examples/bangkok-original.webp",
+    "variants": [
+      {
+        "group": "Black",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-black-male-casual.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-black-male-typical.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-black-female-casual.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-black-female-typical.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-east-asian-male-casual.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-east-asian-male-typical.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-east-asian-female-casual.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-east-asian-female-typical.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-indian-male-casual.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-indian-male-typical.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-indian-female-casual.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-indian-female-typical.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-latino-male-casual.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-latino-male-typical.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-latino-female-casual.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-latino-female-typical.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-middle-eastern-male-casual.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-middle-eastern-male-typical.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-middle-eastern-female-casual.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-middle-eastern-female-typical.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-southeast-asian-male-casual.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-southeast-asian-male-typical.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-southeast-asian-female-casual.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-southeast-asian-female-typical.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-white-male-casual.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-white-male-typical.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/bangkok-white-female-casual.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/bangkok-white-female-typical.webp"
+      }
+    ]
+  },
+  {
+    "id": "agra",
+    "title": "Agra, India",
+    "lat": 27.1778,
+    "lon": 78.0084,
+    "type": "landmark",
+    "source": "yfcc4k",
+    "original": "assets/examples/agra-original.webp",
+    "variants": [
+      {
+        "group": "Black",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/agra-black-male-casual.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/agra-black-male-typical.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/agra-black-female-casual.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/agra-black-female-typical.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/agra-east-asian-male-casual.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/agra-east-asian-male-typical.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/agra-east-asian-female-casual.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/agra-east-asian-female-typical.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/agra-indian-male-casual.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/agra-indian-male-typical.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/agra-indian-female-casual.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/agra-indian-female-typical.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/agra-latino-male-casual.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/agra-latino-male-typical.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/agra-latino-female-casual.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/agra-latino-female-typical.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/agra-middle-eastern-male-casual.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/agra-middle-eastern-male-typical.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/agra-middle-eastern-female-casual.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/agra-middle-eastern-female-typical.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/agra-southeast-asian-male-casual.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/agra-southeast-asian-male-typical.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/agra-southeast-asian-female-casual.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/agra-southeast-asian-female-typical.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/agra-white-male-casual.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/agra-white-male-typical.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/agra-white-female-casual.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/agra-white-female-typical.webp"
+      }
+    ]
+  },
+  {
+    "id": "road",
+    "title": "Northern Cape, South Africa",
+    "lat": -28.674172,
+    "lon": 20.527095,
+    "type": "non-landmark",
+    "source": "im2gps3k",
+    "original": "assets/examples/road-original.webp",
+    "variants": [
+      {
+        "group": "Black",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/road-black-male-casual.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/road-black-male-typical.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/road-black-female-casual.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/road-black-female-typical.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/road-east-asian-male-casual.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/road-east-asian-male-typical.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/road-east-asian-female-casual.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/road-east-asian-female-typical.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/road-indian-male-casual.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/road-indian-male-typical.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/road-indian-female-casual.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/road-indian-female-typical.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/road-latino-male-casual.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/road-latino-male-typical.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/road-latino-female-casual.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/road-latino-female-typical.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/road-middle-eastern-male-casual.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/road-middle-eastern-male-typical.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/road-middle-eastern-female-casual.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/road-middle-eastern-female-typical.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/road-southeast-asian-male-casual.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/road-southeast-asian-male-typical.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/road-southeast-asian-female-casual.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/road-southeast-asian-female-typical.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/road-white-male-casual.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/road-white-male-typical.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/road-white-female-casual.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/road-white-female-typical.webp"
+      }
+    ]
+  },
+  {
+    "id": "santander",
+    "title": "Santander, Spain",
+    "lat": 43.4613,
+    "lon": -3.8017,
+    "type": "landmark",
+    "source": "yfcc4k",
+    "original": "assets/examples/santander-original.webp",
+    "variants": [
+      {
+        "group": "Black",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/santander-black-male-casual.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/santander-black-male-typical.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/santander-black-female-casual.webp"
+      },
+      {
+        "group": "Black",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/santander-black-female-typical.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/santander-east-asian-male-casual.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/santander-east-asian-male-typical.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/santander-east-asian-female-casual.webp"
+      },
+      {
+        "group": "East Asian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/santander-east-asian-female-typical.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/santander-indian-male-casual.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/santander-indian-male-typical.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/santander-indian-female-casual.webp"
+      },
+      {
+        "group": "Indian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/santander-indian-female-typical.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/santander-latino-male-casual.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/santander-latino-male-typical.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/santander-latino-female-casual.webp"
+      },
+      {
+        "group": "Latino",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/santander-latino-female-typical.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/santander-middle-eastern-male-casual.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/santander-middle-eastern-male-typical.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/santander-middle-eastern-female-casual.webp"
+      },
+      {
+        "group": "Middle Eastern",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/santander-middle-eastern-female-typical.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/santander-southeast-asian-male-casual.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/santander-southeast-asian-male-typical.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/santander-southeast-asian-female-casual.webp"
+      },
+      {
+        "group": "Southeast Asian",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/santander-southeast-asian-female-typical.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Male",
+        "attire": "Casual",
+        "image": "assets/examples/santander-white-male-casual.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Male",
+        "attire": "Typical",
+        "image": "assets/examples/santander-white-male-typical.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Female",
+        "attire": "Casual",
+        "image": "assets/examples/santander-white-female-casual.webp"
+      },
+      {
+        "group": "White",
+        "gender": "Female",
+        "attire": "Typical",
+        "image": "assets/examples/santander-white-female-typical.webp"
+      }
+    ]
+  }
+]
+;
